@@ -21,6 +21,10 @@ h2:hover {
   background-color: gray;
 }
 
+[class*="editors-item"] {
+  height: auto;
+}
+
 .nav-main {
   height: 100px;
   width: 100%;
@@ -37,6 +41,17 @@ h2:hover {
   height: auto;
   background-color: aquamarine;
 }
+
+.slideshow {
+  height: auto;
+  background-color: aquamarine;
+}
+
+[class*="slideshow-item"] .article-img-wrapper {
+  height: 250px;
+}
+
+
 
 .top-story {
   height: auto;
