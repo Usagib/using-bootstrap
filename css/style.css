@@ -19,18 +19,27 @@ h2:hover {
   color: black;
 }
 
+.footer-row-1-l {
+  margin-left: 20px;
+}
+
+
 .footer-row-1-r {
   text-align: left;
   color: black;
+  margin-left: 20px;
 }
 
 .footer-row-2-r {
-  text-align: right;
-  color: black;
+  text-align: center;
+  width: 80%;
+  margin: auto;
 }
 
-.footer-row-2-r span {
-  margin-left: -10px;
+.footer-row-2-r a {
+  color: gray;
+  margin: auto 10px;
+  font-size: 15px;
 }
 
 [class*="itm-col"] {
@@ -44,7 +53,6 @@ h2:hover {
 
 .nav-main {
   height: 50px;
-  width: 100%;
   background-color: #f72210;
 }
 
@@ -578,7 +586,7 @@ h2:hover {
 
 .subscribe-l {
   background-color: teal;
-  height: 400px;
+  height: 450px;
 }
 
 .subscribe-r {
@@ -605,14 +613,24 @@ h2:hover {
 
 .footer-row-1 {
   height: 100px;
-  background-color: gray;
   margin: auto 5%;
+  margin-top: 20px;
 }
 
 .footer-row-2 {
   height: 70px;
-  background-color: lightseagreen;
-  margin: auto 5%;
+}
+
+.footer-row-2-l {
+  width: 80%;
+  margin: 10px auto;
+  margin-bottom: 20px;
+}
+
+.footer-row-2-l a {
+  color: gray;
+  margin: auto 10px;
+  font-size: 15px;
 }
 
 .article-title {
@@ -638,10 +656,22 @@ h2:hover {
 
 .subscribe-container {
   margin: auto;
-  height: 500px;
+  height: 450px;
   width: 90%;
   background-color: gray;
   text-align: center;
+}
+
+.subscribe-container-1 {
+  margin: auto;
+  height: 200px;
+  width: 90%;
+  background-color: gray;
+  text-align: center;
+}
+
+.social-icons {
+  margin: auto 5px;
 }
 
 .newsletter-img {
@@ -785,7 +815,7 @@ h2:hover {
 
 .subscribe-container-1 {
   margin: auto;
-  margin-top: 50px;
+  margin-top: 30px;
   height: 300px;
   width: 80%;
   background-color: gray;
