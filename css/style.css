@@ -5,7 +5,7 @@ h2:hover {
 }
 
 .month-issue {
-  height: auto;
+  height: 500px;
   background-color: lightseagreen;
 }
 
@@ -20,13 +20,17 @@ h2:hover {
 }
 
 .footer-row-1-r {
-  text-align: right;
+  text-align: left;
   color: black;
 }
 
 .footer-row-2-r {
   text-align: right;
   color: black;
+}
+
+.footer-row-2-r span {
+  margin-left: -10px;
 }
 
 [class*="itm-col"] {
@@ -39,13 +43,13 @@ h2:hover {
 }
 
 .nav-main {
-  height: 100px;
+  height: 50px;
   width: 100%;
   background-color: #f72210;
 }
 
 .nav-main-menu {
-  height: 50px;
+  height: 0px;
   width: 100%;
   background-color: #eee;
 }
@@ -76,16 +80,19 @@ h2:hover {
 }
 
 [class*="more-div"] {
-  height: 100px;
+  height: auto;
   width: 100%;
   background-color: #eee;
   margin: 10px 0;
+  overflow: hidden;
+  border-top: 1px solid #eee;
 }
 
 .signup-container {
-  height: 200px;
+  height: 170px;
   width: 100%;
   background-color: teal;
+  text-align: center;
 }
 
 .opinion-author {
@@ -96,11 +103,19 @@ h2:hover {
 }
 
 .more-img-wrapper {
-  width: 20%;
-  height: 70px;
+  width: 35%;
+  height: 90px;
   background-color: lightsalmon;
   box-sizing: border-box;
   margin: 1%;
+}
+
+.more-text {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: black;
+  line-height: 20px;
 }
 
 .news-img-wrapper {
@@ -117,6 +132,7 @@ h2:hover {
   background-color: lightsalmon;
   box-sizing: border-box;
   margin: 1%;
+  margin-right: 15px;
   background-size: cover;
 }
 
@@ -130,10 +146,31 @@ h2:hover {
 
 .itm-img-wrapper {
   width: 100%;
-  height: 300px;
-  background-color: teal;
+  height: 200px;
   box-sizing: border-box;
   margin: 1%;
+}
+
+.cover-span {
+  background-color: #f72210;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: auto 3px;
+  padding: 5px 5px;
+}
+
+.category-span {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  color: #f72210;
+  margin: auto 3px;
+  font-weight: bold;
+}
+
+.itm-category-wrapper {
+  margin-bottom: 5px;
 }
 
 .features-div {
@@ -143,8 +180,8 @@ h2:hover {
 }
 
 .issue-img-wrapper {
-  width: 90%;
-  height: 350px;
+  width: 100%;
+  height: 450px;
   background-color: teal;
   box-sizing: border-box;
   margin: 1% auto;
@@ -152,9 +189,10 @@ h2:hover {
 
 [class*="opinion-div"] {
   width: 100%;
-  height: 100px;
+  height: auto;
   margin: 3px 0;
   background-color: lightseagreen;
+  border-top: 1px solid #eee;
 }
 
 [class*="latest-div"] {
@@ -200,7 +238,7 @@ h2:hover {
 }
 
 [class*="culture-div"] {
-  width: 48%;
+  width: 100%;
   height: auto;
   box-sizing: border-box;
   margin: 1%;
@@ -222,7 +260,7 @@ h2:hover {
 
 .latest-title {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   color: black;
 }
@@ -236,11 +274,72 @@ h2:hover {
 
 .article-img-title {
   position: relative;
-  background-color: gray;
-  width: 15%;
+  background-color: #eee;
+  color: #f72210;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  width: 20%;
   height: 15%;
   top: 85%;
   right: 0;
+  padding: 5px 12px;
+}
+
+.ntm-img-title {
+  position: relative;
+  background-color: #f72210;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 30%;
+  height: 15%;
+  top: 85%;
+  right: 0;
+  padding: 0 5px;
+}
+
+.ss-over {
+  position: relative;
+  top: 80%;
+}
+
+.itm-2 {
+  margin-bottom: 20px;
+}
+
+.issue-img-title {
+  position: relative;
+  background-color: #eee;
+  color: #f72210;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  width: 47%;
+  height: 8%;
+  top: 92%;
+  right: 0;
+  padding: 6px 12px;
+}
+
+.features-div span {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: black
+}
+
+.features-div {
+  text-align: center;
+}
+
+.section-title-div {
+  border-bottom: 1px solid #eee;
+}
+
+.section-title-div img {
+  margin: auto 45%;
 }
 
 [class*="itm-img-"] {
@@ -251,8 +350,9 @@ h2:hover {
 
 .issue-img {
   background-image: url("../img/cover-img.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .itm-img-1 {
@@ -277,6 +377,10 @@ h2:hover {
 
 .itm-img-6 {
   background-image: url("../img/ntm-6.jpg");
+}
+
+.itm-img-7 {
+  background-image: url("../img/ntm-7.jpg");
 }
 
 .editors-img-1 {
@@ -335,11 +439,11 @@ h2:hover {
 }
 
 .ss-img-5 {
-  background-image: url("../img/slideshow-3.jpg");
+  background-image: url("../img/slideshow-5.jpg");
 }
 
 .ss-img-6 {
-  background-image: url("../img/slideshow-4.jpg");
+  background-image: url("../img/slideshow-6.jpg");
 }
 
 [class*="ss-img-"] {
@@ -348,10 +452,8 @@ h2:hover {
   background-position: center;
 }
 
-[class*="news-row-"] {
-  height: 300px;
-  background-color: gray;
-  margin: 10px auto;
+[class*="news-"] {
+  display: none;
 }
 
 .n-img-1-l-1 {
@@ -481,7 +583,7 @@ h2:hover {
 
 .subscribe-r {
   background-color: khaki;
-  height: 400px;
+  height: 300px;
 }
 .news-l-wrapper, .news-r-wrapper {
   width: 100%;
@@ -502,7 +604,7 @@ h2:hover {
 }
 
 .footer-row-1 {
-  height: 50px;
+  height: 100px;
   background-color: gray;
   margin: auto 5%;
 }
@@ -515,24 +617,17 @@ h2:hover {
 
 .article-title {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   color: black;
 }
+
 
 .article-text {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 15px;
   font-weight: 300;
   color: black;
-}
-
-.more-text {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 15px;
-  font-weight: 300;
-  color: black;
-  line-height: 20px;
 }
 
 .opinion-wrapper {
@@ -543,10 +638,36 @@ h2:hover {
 
 .subscribe-container {
   margin: auto;
-  margin-top: 50px;
-  height: 300px;
-  width: 80%;
+  height: 500px;
+  width: 90%;
   background-color: gray;
+  text-align: center;
+}
+
+.newsletter-img {
+  width: 100%;
+}
+
+.subscribe-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+.subscribe-sub {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.subscribe-button {
+  border: none;
+  background-color: #f72210;
+  margin-top: 20px;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
 }
 
 .logo-container {
@@ -570,8 +691,11 @@ h2:hover {
 }
 
 .top-story-img {
-  height: 300px;
+  height: 200px;
   background-image: url("../img/top-story.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 [class*="featured-img-"] {
@@ -612,6 +736,13 @@ h2:hover {
   background-image: url("../img/culture-4.jpg");
 }
 
+[class*="culture-img-"] {
+  height: 230px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .more-img-1 {
   background-image: url("../img/more-img-1.jpg");
 }
@@ -645,7 +776,7 @@ h2:hover {
 }
 
 .main-row {
-  height: 1300px;
+  height: auto;
 }
 
 .opinion-img {
@@ -671,9 +802,6 @@ h2:hover {
 }
 
 @media (min-width: 768px) {
-  .main-row {
-    height: auto;
-  }
 
   .latest-img-wrapper {
     width: 20%;
