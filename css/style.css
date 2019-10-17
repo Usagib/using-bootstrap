@@ -31,7 +31,7 @@ h2:hover {
 }
 
 .footer-row-2-r {
-  text-align: center;
+  text-align: left;
   width: 80%;
   margin: auto;
 }
@@ -833,6 +833,26 @@ h2:hover {
 
 @media (min-width: 768px) {
 
+  .month-issue {
+    height: auto;
+  }
+
+  .subscribe-container {
+    height: auto;
+  }
+
+  .subscribe-l {
+    height: auto;
+  }
+
+  .subscribe-container-1 {
+    height: auto;
+  }
+
+  .subscribe-r {
+    height: auto;
+  }
+
   .latest-img-wrapper {
     width: 20%;
     height: 90px;
@@ -850,4 +870,18 @@ h2:hover {
     height: 150px;
   }
 
+}
+
+@media (min-width: 992px) {
+  [class*="itm-img"] {
+    height: 300px;
+  }
+
+  [class*="slideshow-item"] .article-img-wrapper {
+    height: 300px;
+  }
+
+  [class*="news-"] {
+    display: block;
+  }
 }
