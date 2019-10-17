@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="css/bootstrap.css">
   </head>
   <body>
-    <nav>
+    <nav class="lg-nav-bar">
       <div class="nav-main row">
         <div class="col-2 nav-main-l">
           <h4>Mon, Oct 14 2019</h4>
         </div>
-        <div class="col-8 nav-main-c">
+        <div class="col-7 nav-main-c">
           <div class="logo-container">
             <img src="img/logo.png" alt="">
           </div>
         </div>
-        <div class="col-2 nav-main-r">
+        <div class="col-3 nav-main-r">
           <div class="button-container">
-            <span>SIGN IN</span>
-            <span>SUBSCRIBE ></span>
+            <span class="nav-sign">SIGN IN</span>
+            <span class="nav-subs">SUBSCRIBE > </span>
           </div>
         </div>
       </div>
@@ -35,13 +35,74 @@
         <a href="#">HEALTH</a>
         <a href="#">OPINION</a>
         <a href="#">VANTAGE</a>
+        <input type="search" placeholder="search" style="border: none;">
+          <img src="img/search-ico.png" style="width: 25px;" alt="">
+        </input>
       </div>
+    </nav>
+
+    <nav class="fixed-nav-bar">
+
     </nav>
 
     <section class="main-section">
       <div class="container-fluid">
         <div class="row main-row">
-          <div class="col-12 col-md-5 col-lg-3 top-story">
+          <div class="col-12 col-md-5 col-lg-3 order-2 order-md-1 featured-stories">
+            <h1 class="main-section-title">FEATURED STORIES</h1>
+
+            <article class="main-article">
+              <div class="article-img-wrapper featured-img-1">
+                <div class="article-img-title">WORLD</div>
+              </div>
+
+              <h2 class="article-title">What to Look for During Tonight's Democratic Debate</h2>
+              <p class="article-text">
+                A handy guide on each candidate's
+                biggest dangers and opportunities
+                during America's biggest-ever political debate.
+              </p>
+            </article>
+
+            <article class="main-article">
+              <div class="article-img-wrapper featured-img-2">
+                <div class="article-img-title">POLITICS</div>
+              </div>
+
+              <h2 class="article-title">Fire Breaks Out at Overcrowded Refugee Camp, Forcing Thousands to Flee</h2>
+              <p class="article-text">
+                "This nightmare must end!" said Doctors Without Borders,
+                calling for children and other vulnerable
+                 residents to be transferred out of the camp.
+              </p>
+            </article>
+
+            <article class="main-article">
+              <div class="article-img-wrapper  featured-img-3">
+                <div class="article-img-title">U.S.</div>
+              </div>
+
+              <h2 class="article-title">Watergate Prosecutor: 'More Than Enough Evidence' to Investigate Giuliani</h2>
+              <p class="article-text">
+                President Donald Trump has defended Rudy Giuliani as a "very good attorney"
+                and slammed reported investigations as "shameful."
+              </p>
+            </article>
+
+            <article class="main-article">
+              <div class="article-img-wrapper  featured-img-4">
+                <div class="article-img-title">SURVEY</div>
+              </div>
+
+              <h2 class="article-title">Best Customer Service 2020</h2>
+              <p class="article-text">
+                For the second year in a row, we worked with Statista
+                to collect and analyze data across 160 retail categories.
+              </p>
+            </article>
+
+          </div>
+          <div class="col-12 col-md-7 col-lg-5 order-1 order-md-2 top-story">
             <h1 class="main-section-title">TOP STORY</h1>
 
             <article class="main-article">
@@ -189,61 +250,7 @@
             </div>
 
           </div>
-          <div class="col-12 col-md-7 col-lg-5 featured-stories">
-            <h1 class="main-section-title">FEATURED STORIES</h1>
-
-            <article class="main-article">
-              <div class="article-img-wrapper featured-img-1">
-                <div class="article-img-title">WORLD</div>
-              </div>
-
-              <h2 class="article-title">What to Look for During Tonight's Democratic Debate</h2>
-              <p class="article-text">
-                A handy guide on each candidate's
-                biggest dangers and opportunities
-                during America's biggest-ever political debate.
-              </p>
-            </article>
-
-            <article class="main-article">
-              <div class="article-img-wrapper featured-img-2">
-                <div class="article-img-title">POLITICS</div>
-              </div>
-
-              <h2 class="article-title">Fire Breaks Out at Overcrowded Refugee Camp, Forcing Thousands to Flee</h2>
-              <p class="article-text">
-                "This nightmare must end!" said Doctors Without Borders,
-                calling for children and other vulnerable
-                 residents to be transferred out of the camp.
-              </p>
-            </article>
-
-            <article class="main-article">
-              <div class="article-img-wrapper  featured-img-3">
-                <div class="article-img-title">U.S.</div>
-              </div>
-
-              <h2 class="article-title">Watergate Prosecutor: 'More Than Enough Evidence' to Investigate Giuliani</h2>
-              <p class="article-text">
-                President Donald Trump has defended Rudy Giuliani as a "very good attorney"
-                and slammed reported investigations as "shameful."
-              </p>
-            </article>
-
-            <article class="main-article">
-              <div class="article-img-wrapper  featured-img-4">
-                <div class="article-img-title">SURVEY</div>
-              </div>
-
-              <h2 class="article-title">Best Customer Service 2020</h2>
-              <p class="article-text">
-                For the second year in a row, we worked with Statista
-                to collect and analyze data across 160 retail categories.
-              </p>
-            </article>
-
-          </div>
-          <div class="col-12 col-md-12 col-lg-4 opinion">
+          <div class="col-12 col-md-12 col-lg-4 order-3 opinion">
             <h1 class="main-section-title">OPINIONS</h1>
             <div class="d-flex flex-wrap opinion-wrapper">
               <div class="opinion-div-1">
@@ -596,6 +603,9 @@
         </div>
 
         <div class="row news-row-1">
+          <div class="col-12">
+            <span class="news-title">U.S.</span>
+          </div>
           <div class="col-8 news-l">
             <div class="d-flex news-l-wrapper">
               <div class="news-l-item">
@@ -642,6 +652,9 @@
         </div>
 
         <div class="row news-row-2">
+          <div class="col-12">
+            <span class="news-title">WORLD</span>
+          </div>
           <div class="col-8 news-l">
             <div class="d-flex news-l-wrapper">
               <div class="news-l-item">
@@ -689,6 +702,9 @@
         </div>
 
         <div class="row news-row-3">
+          <div class="col-12">
+            <span class="news-title">BUSINESS</span>
+          </div>
           <div class="col-8 news-l">
             <div class="d-flex news-l-wrapper">
               <div class="news-l-item">
@@ -735,6 +751,9 @@
         </div>
 
         <div class="row news-row-4">
+          <div class="col-12">
+            <span class="news-title">TECH & SCIENCE</span>
+          </div>
           <div class="col-8 news-l">
             <div class="d-flex news-l-wrapper">
               <div class="news-l-item">
@@ -781,6 +800,9 @@
         </div>
 
         <div class="row news-row-5">
+          <div class="col-12">
+            <span class="news-title">CULTURE</span>
+          </div>
           <div class="col-8 news-l">
             <div class="d-flex news-l-wrapper">
               <div class="news-l-item">
@@ -827,6 +849,9 @@
         </div>
 
         <div class="row news-row-6">
+          <div class="col-12">
+            <span class="news-title">SPORTS</span>
+          </div>
           <div class="col-8 news-l">
             <div class="d-flex news-l-wrapper">
               <div class="news-l-item">
@@ -917,11 +942,11 @@
 
     <footer>
       <div class="row footer-row-1">
-        <div class="col-12 footer-row-1-l float-left">
+        <div class="col-12 col-lg-6 col-md-6 footer-row-1-l float-left">
           <img src="img/footer-logo.png" alt="">
-          <br><span>2019 NewsWeek</span>
+          <span>2019 NewsWeek</span>
         </div>
-        <div class="col-12 footer-row-1-r float-left">
+        <div class="col-12 col-lg-6 col-md-6 footer-row-1-r float-left">
           <img class="social-icons" src="img/social-1.png" alt="">
           <img class="social-icons" src="img/social-2.png" alt="">
           <img class="social-icons" src="img/social-3.png" alt="">

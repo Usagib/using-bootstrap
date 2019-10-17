@@ -4,15 +4,17 @@ h2:hover {
   color: #F72210;
 }
 
+.lg-nav-bar {
+  display: none;
+}
+
 .month-issue {
   height: 500px;
-  background-color: lightseagreen;
 }
 
 .itm-wrapper {
   height: auto;
   width: 100%;
-  background-color: lightsalmon;
 }
 
 .nav-main-menu a {
@@ -23,9 +25,7 @@ h2:hover {
   margin-left: 20px;
 }
 
-
 .footer-row-1-r {
-  text-align: left;
   color: black;
   margin-left: 20px;
 }
@@ -44,7 +44,6 @@ h2:hover {
 
 [class*="itm-col"] {
   height: 100%;
-  background-color: gray;
 }
 
 [class*="editors-item"] {
@@ -52,24 +51,50 @@ h2:hover {
 }
 
 .nav-main {
-  height: 50px;
+  height: 100px;
   background-color: #f72210;
 }
 
+.nav-sign {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+  padding: auto;
+}
+
+.nav-subs {
+  color: #f72210;
+  background-color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+  padding: auto;
+}
+
 .nav-main-menu {
-  height: 0px;
-  width: 100%;
-  background-color: #eee;
+  height: 50px;
+}
+
+.nav-main-menu a {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-main-menu a:hover {
+  color: #f72210;
 }
 
 .featured-stories {
   height: auto;
-  background-color: aquamarine;
 }
 
 .slideshow {
   height: auto;
-  background-color: aquamarine;
 }
 
 [class*="slideshow-item"] .article-img-wrapper {
@@ -78,8 +103,6 @@ h2:hover {
 
 .top-story {
   height: auto;
-  background-color: khaki;
-  overflow: hidden;
 }
 
 .more-stories-wrapper {
@@ -90,7 +113,6 @@ h2:hover {
 [class*="more-div"] {
   height: auto;
   width: 100%;
-  background-color: #eee;
   margin: 10px 0;
   overflow: hidden;
   border-top: 1px solid #eee;
@@ -99,7 +121,6 @@ h2:hover {
 .signup-container {
   height: 170px;
   width: 100%;
-  background-color: teal;
   text-align: center;
 }
 
@@ -113,7 +134,6 @@ h2:hover {
 .more-img-wrapper {
   width: 35%;
   height: 90px;
-  background-color: lightsalmon;
   box-sizing: border-box;
   margin: 1%;
 }
@@ -129,7 +149,6 @@ h2:hover {
 .news-img-wrapper {
   width: 98%;
   height: 250px;
-  background-color: lightsalmon;
   box-sizing: border-box;
   margin: 1%;
 }
@@ -137,7 +156,6 @@ h2:hover {
 .latest-img-wrapper {
   width: 35%;
   height: 90px;
-  background-color: lightsalmon;
   box-sizing: border-box;
   margin: 1%;
   margin-right: 15px;
@@ -147,7 +165,6 @@ h2:hover {
 .opinion-img-wrapper {
   width: 20%;
   height: 96%;
-  background-color: lightsalmon;
   box-sizing: border-box;
   margin: 1%;
 }
@@ -184,13 +201,11 @@ h2:hover {
 .features-div {
   height: 30px;
   width: 100%;
-  background-color: khaki;
 }
 
 .issue-img-wrapper {
   width: 100%;
   height: 450px;
-  background-color: teal;
   box-sizing: border-box;
   margin: 1% auto;
 }
@@ -199,7 +214,6 @@ h2:hover {
   width: 100%;
   height: auto;
   margin: 3px 0;
-  background-color: lightseagreen;
   border-top: 1px solid #eee;
 }
 
@@ -207,7 +221,6 @@ h2:hover {
   width: 100%;
   height: 100px;
   margin: 2px 0;
-  background-color: lightseagreen;
 }
 
 .latest-img-1 {
@@ -242,7 +255,6 @@ h2:hover {
 .culture-flex-wrapper {
   width: 100%;
   height: auto;
-  background-color: lavenderblush;
 }
 
 [class*="culture-div"] {
@@ -277,12 +289,10 @@ h2:hover {
   width: 100%;
   margin: auto;
   height: 150px;
-  background-color: chartreuse;
 }
 
 .article-img-title {
   position: relative;
-  background-color: #eee;
   color: #f72210;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
@@ -292,11 +302,11 @@ h2:hover {
   top: 85%;
   right: 0;
   padding: 5px 12px;
+  background-color: white;
 }
 
 .ntm-img-title {
   position: relative;
-  background-color: #f72210;
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
@@ -319,7 +329,6 @@ h2:hover {
 
 .issue-img-title {
   position: relative;
-  background-color: #eee;
   color: #f72210;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
@@ -585,12 +594,10 @@ h2:hover {
 }
 
 .subscribe-l {
-  background-color: teal;
   height: 450px;
 }
 
 .subscribe-r {
-  background-color: khaki;
   height: 300px;
 }
 .news-l-wrapper, .news-r-wrapper {
@@ -602,12 +609,10 @@ h2:hover {
   width: 48%;
   margin: auto;
   height: 100%;
-  background-color: teal;
 }
 
 .news-r-item {
   width: 100%;
-  background-color: khaki;
   margin-top: 5px;
 }
 
@@ -651,14 +656,12 @@ h2:hover {
 .opinion-wrapper {
   height: auto;
   width: 100%;
-  background-color: moccasin;
 }
 
 .subscribe-container {
   margin: auto;
   height: 450px;
   width: 90%;
-  background-color: gray;
   text-align: center;
 }
 
@@ -666,7 +669,6 @@ h2:hover {
   margin: auto;
   height: 200px;
   width: 90%;
-  background-color: gray;
   text-align: center;
 }
 
@@ -710,7 +712,6 @@ h2:hover {
   height: 30px;
   margin-left: 20%;
   margin-top: 60px;
-  font-size: 12px;
 }
 
 .nav-main-l h4 {
@@ -818,17 +819,19 @@ h2:hover {
   margin-top: 30px;
   height: 300px;
   width: 80%;
-  background-color: gray;
-}
-
-.button-container span {
-  color: white;
 }
 
 .latest-wrapper {
   height: auto;
   width: 100%;
-  background-color: moccasin;
+}
+
+.news-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 22px;
+  color: #F72210;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
 @media (min-width: 768px) {
@@ -870,6 +873,17 @@ h2:hover {
     height: 150px;
   }
 
+  [class*="culture-div"] {
+    width: 48%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 1%;
+  }
+
+  [class*="culture-img-"] {
+    height: 150px;
+  }
+
 }
 
 @media (min-width: 992px) {
@@ -883,5 +897,13 @@ h2:hover {
 
   [class*="news-"] {
     display: block;
+  }
+
+  .lg-nav-bar {
+    display: block;
+  }
+
+  .top-story-img {
+    height: 300px;
   }
 }
